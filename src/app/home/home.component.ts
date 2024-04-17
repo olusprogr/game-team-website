@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
-import { ProgressServiceService } from '../progress-service.service';
+import { JsonService } from '../json-service';
 
 import { NavbarComponent } from '../home-comp/navbar/navbar.component';
 import { AboutusComponent } from '../home-comp/aboutus/aboutus.component';
 import { FooterComponent } from '../home-comp/footer/footer.component';
 import { CsmapComponent } from '../home-comp/csmap/csmap.component';
+import { DiscordStuffComponent } from '../home-comp/discord-stuff/discord-stuff.component';
 
 @Component({
   selector: 'app-home',
@@ -13,7 +14,8 @@ import { CsmapComponent } from '../home-comp/csmap/csmap.component';
     NavbarComponent,
     AboutusComponent,
     FooterComponent,
-    CsmapComponent
+    CsmapComponent,
+    DiscordStuffComponent
   ],
   templateUrl: './home.component.html',
   styleUrls: [
@@ -23,8 +25,7 @@ import { CsmapComponent } from '../home-comp/csmap/csmap.component';
 })
 export class HomeComponent {
   constructor(
-    private progressService: ProgressServiceService
+    private jsonService: JsonService
   ) {
-    console.log(this.progressService.getProgressData());
   }
 }

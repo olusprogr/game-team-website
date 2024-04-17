@@ -1,0 +1,43 @@
+{
+    "our-team": {
+        "title": "Our Team",
+        "description": "Meet the team that makes it all happen.",
+        "members": [
+            {
+                "name": "Olivier",
+                "role": [
+                    "Web Developer",
+                    "Back-end Developer"
+                ],
+                "bio": "Started coding since 13 years old in back-end development, then moved to front-end with Angular + Typescript. He is now a full-stack developer. Responsible for designing and developing the company's virtual products.",
+                "image": "../../assets/team-images/olivier.png"
+            },
+            {
+                "name": "David",
+                "role": [
+                    "CS Map Designer",
+                    "Front-end Developer"
+                ],
+                "bio": "Jane is the CTO of our company. She has a background in computer science and has been with the company for 5 years. She is responsible for overseeing the company's technical operations and ensuring that our products are of the highest quality.",
+                "image": "../../assets/team-images/david.png"
+            },
+            {
+                "name": "Samuel",
+                "role": [
+                    "Graphic Designer",
+                    "Producer"
+                ],
+                "bio": "Alice is the COO of our company. She has a background in operations and has been with the company for 3 years. She is responsible for overseeing the company's day-to-day operations and ensuring that everything runs smoothly.",
+                "image": "alice-johnson.jpg"
+            },
+            {
+                "name": "Simon",
+                "role": [
+                    "Token Manager"
+                ],
+                "bio": "Bob is the CMO of our company. He has a background in marketing and has been with the company for 4 years. He is responsible for overseeing the company's marketing efforts and ensuring that our products reach the right audience.",
+                "image": "bob-smith.jpg"
+            }
+        ]
+    }
+}
