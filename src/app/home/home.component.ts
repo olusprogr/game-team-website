@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef } from '@angular/core';
 import { JsonService } from '../json-service';
+import { NavigationService } from '../navigation.service';
 
 import { NavbarComponent } from '../home-comp/navbar/navbar.component';
 import { AboutusComponent } from '../home-comp/aboutus/aboutus.component';
@@ -25,7 +26,21 @@ import { DiscordStuffComponent } from '../home-comp/discord-stuff/discord-stuff.
 })
 export class HomeComponent {
   constructor(
-    private jsonService: JsonService
+    private jsonService: JsonService,
+    private navigationService: NavigationService,
+    private elRef: ElementRef
   ) {
+  }
+
+  private scroolToTarget(target: string): void {
+    const targetElement = this.elRef.nativeElement.querySelector(`#${target}`);
+    targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  ngOnInit() {
+    this.navigationService.newSubject.subscribe((data) => {
+      const targetElement = this.elRef.nativeElement.querySelector(`#${data}`);
+    targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
   }
 }

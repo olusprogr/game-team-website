@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import * as ourTeam from '../assets/team.json';
-
+/* const fs = require('file-system');*/
 
 
 @Injectable({
@@ -8,6 +8,7 @@ import * as ourTeam from '../assets/team.json';
 })
 export class JsonService {
   ourTeam: {} = ourTeam;
+
   constructor() {
     for (let key in ourTeam) {
       if (key == 'our-team') {
