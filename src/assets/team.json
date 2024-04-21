@@ -27,16 +27,16 @@
                     "Graphic Designer",
                     "Producer"
                 ],
-                "bio": "Alice is the COO of our company. She has a background in operations and has been with the company for 3 years. She is responsible for overseeing the company's day-to-day operations and ensuring that everything runs smoothly.",
-                "image": "alice-johnson.jpg"
+                "bio": "No desciption provided.",
+                "image": "../../assets/team-images/samuel.png"
             },
             {
                 "name": "Simon",
                 "role": [
                     "Token Manager"
                 ],
-                "bio": "Bob is the CMO of our company. He has a background in marketing and has been with the company for 4 years. He is responsible for overseeing the company's marketing efforts and ensuring that our products reach the right audience.",
-                "image": "bob-smith.jpg"
+                "bio": "Meet Simon the Manager who has brought the team closer to manage events, overview the investments and overlook the marketing aspect of our current projects and future ambitions into launching Tokens and NFTS.",
+                "image": "../../assets/team-images/simon.png"
             }
         ]
     }
