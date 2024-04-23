@@ -1,0 +1,157 @@
+{
+    "progress": [
+      {
+        "name": "District BETA v1.0",
+        "announcement": "@here",
+        "date": "2024-04-09",
+        "updates": [
+          "Added Main Structure",
+          "Added A Site",
+          "Added A Apartments",
+          "Added A Hall"
+        ],
+        "build_time": "6 hours"
+      },
+      {
+        "name": "District BETA v1.1",
+        "announcement": "@here",
+        "date": "2024-04-10",
+        "updates": [
+          "Bug fixes on A Site",
+          "Added A Heaven",
+          "Added more Roofs on A Site / A Apartments / A Hall",
+          "Added Church",
+          "Better Lighting"
+        ],
+        "build_time": "8 hours"
+      },
+      {
+        "name": "District BETA v1.2",
+        "announcement": "@here",
+        "date": "2024-04-11",
+        "updates": [
+          "Added T Spawn",
+          "Added Roads",
+          "Added A Garden",
+          "Added Ruin",
+          "Fixed Bugs & Lighting"
+        ],
+        "build_time": "10 hours"
+      },
+      {
+        "name": "District BETA v1.3",
+        "announcement": "@here",
+        "date": "2024-04-12",
+        "updates": [
+          "Added more roads",
+          "Added B House exterior",
+          "Added Clipping",
+          "Added Power lines",
+          "Fixed Bugs"
+        ],
+        "build_time": "5 hours"
+      },
+      {
+        "name": "District BETA v1.3.1",
+        "announcement": "@here",
+        "date": "2024-04-12",
+        "updates": [
+          "Added B Bombsite",
+          "Added B House interior",
+          "Added B Barn",
+          "Added B Tower",
+          "Fixed Bugs"
+        ],
+        "build_time": "9 hours"
+      },
+      {
+        "name": "District BETA v1.4",
+        "announcement": "@here",
+        "date": "2024-04-13",
+        "updates": [
+          "Added CT Spawn",
+          "Added more houses for background & environment",
+          "Updated Props on B Site",
+          "Added background trees",
+          "Applied changes to the T & CT timings",
+          "Fixed Clipping",
+          "Fixed Bugs"
+        ],
+        "build_time": "15 hours"
+      },
+      {
+        "name": "District v1.5",
+        "announcement": "@here",
+        "date": "2024-04-14",
+          "updates": [
+              "Updated B Site",
+              "Updated CT Spawn",
+              "Added better & brighter lighting on B Site",
+              "Added Underground",
+              "Fixed bugs and clipping"
+          ],
+          "current_map_size": "276.40MB",
+          "build_time": "8 hours"
+      },
+      {
+        "name": "District BETA v1.6",
+        "announcement": "@here",
+        "date": "2024-04-15",
+        "updates": [
+          "Moved T Spawn",
+          "Updated 'Underground'",
+          "Added 'Scaffolding'",
+          "Fixed water physics",
+          "Moved 'Church' closer to T Spawn",
+          "Deleted flying objects",
+          "Added more lighting",
+          "Fixed bugs and clipping"
+        ],
+        "current_map_size": "317.39MB",
+        "build_time": "8 hours"
+      },
+      {
+        "name": "District BETA v1.7",
+        "announcement": "@here",
+        "date": "2024-04-16",
+        "updates": [
+          "Added Background houses",
+          "Added 'Tunnel'",
+          "Updated lighting",
+          "Fixed Bugs",
+          "Added a lot of clipping",
+          "Fixed 'Scaffolding'"
+        ],
+        "current_map_size": "366.80MB",
+        "build_time": "9 hours"
+      },
+      {
+        "name": "District BETA v1.8",
+        "announcement": "@here",
+        "date": "2024-04-17",
+        "updates": [
+          "Added CT on both Sites",
+          "Added connection to A Site through 'Underground'",
+          "Fixed Bugs and lighting",
+          "Fixed a lot of clipping",
+          "Added the Minimap"
+        ],
+        "current_map_size": "390.81MB",
+        "build_time": "5 hours"
+      },
+      {
+        "name": "District OFFICIAL RELEASE",
+        "announcement": "@everyone",
+        "date": "2024-04-21",
+        "updates": [
+          "Added District to the Steam Workshop"
+        ],
+        "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3228749849",
+        "info": "The Map is yet not fully finished. There are still lighting & clipping bugs which we will fix over time.",
+        "current_map_size": "395.6MB",
+        "total_build_time": "107.6 hours",
+        "extra_info_link": "<#1228490829254103150>"
+      }
+    ]
+  }
+  

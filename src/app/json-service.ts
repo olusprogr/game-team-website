@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import * as ourTeam from '../assets/team.json';
-/* const fs = require('file-system');*/
+import * as progressData from '../assets/cs-map-progress/progress.json';
 
 
 @Injectable({
@@ -8,6 +8,7 @@ import * as ourTeam from '../assets/team.json';
 })
 export class JsonService {
   ourTeam: {} = ourTeam;
+  progressData: {} = progressData;
 
   constructor() {
     for (let key in ourTeam) {
@@ -15,13 +16,15 @@ export class JsonService {
         this.ourTeam = ourTeam[key];
       }
     }
+
+    this.progressData = progressData['progress'];
   }
 
-  getTeamInformation(): {} {
+  public getTeamInformation(): {} {
     return this.ourTeam;
   } 
 
-  getProgressData(): any {
-    // return readJSONFiles(folderPath);
+  public getProgressData(): {} {
+    return this.progressData;
   }
 }
